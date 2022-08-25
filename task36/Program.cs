@@ -20,7 +20,7 @@ Console.WriteLine();
 int sum= 0;
 for (int i = 0; i < array.Length; i++)
 
-    if (array[i] % 2 != 0)
+    if (i % 2 != 0)
     {
         Console.Write($"{array[i]} ");
         sum= sum+array[i];
